@@ -14,7 +14,7 @@ kubectl apply -f .
 Для этого выполним команду, заменив имя pod на имя вашего pod(``можно воспользоваться автоподстановкой по TAB``).
 
 ```bash
-kubectl port-forward my-deployment-5b47d48b58-l4t67 8080:80 &
+kubectl port-forward my-deployment-6f56767645-bzmr2 8080:80 &
 curl 127.0.0.1:8080
 ```
 
